@@ -1,4 +1,4 @@
-function logStatus(status: string) {
+function logStatus(status: string): void {
   if (status === "loading") {
     console.log("Loading...");
   } else if (status === "success") {
